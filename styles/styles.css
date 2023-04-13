@@ -1,0 +1,119 @@
+/* karla-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-weight: 400;
+  src: url("../fonts/karla-v23-latin-regular.woff2") format("woff2"),
+    url("../fonts/karla-v23-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-weight: 700;
+  src: url("../fonts/karla-v23-latin-700.woff2") format("woff2"),
+    url("../fonts/karla-v23-latin-700.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"),
+    url("../fonts/dm-serif-display-v11-latin-regular.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+img {
+  display: block;
+}
+body {
+  font-family: "Karla";
+  font-weight: 700;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+/* ==== Header Styles ====  */
+.site_header {
+}
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 0 19px 0;
+}
+.site_logo {
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar_list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+.navbar_item {
+}
+.navbar_item:not(:nth-child(1)) {
+  margin-left: 25px;
+}
+.navbar_link {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  color: #837d88;
+}
+.btn {
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2c2830;
+  text-decoration: none;
+  padding: 13px 28.5px;
+  background-color: #fff;
+  border: 1.5px solid #2c2830;
+}
+.btn_viewplans {
+  margin-left: 33px;
+}
+/* ==== Main Styles ====  */
+
+.site_intro {
+  background-color: #2d2641;
+  padding: 105px 0 127px 0;
+}
+.intro_wrapper {
+  display: flex;
+  border-top: 1px solid #fff;
+}
+.intro_text_wrapper {
+}
+.intro_heading {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.intro_paragraph {
+}
+.btn {
+}
+.intro_viewplans {
+}
+.intro_img_wrapper {
+}
+.intro_landing-img {
+}
+
+/* ==== Footer Styles ====  */
