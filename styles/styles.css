@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-display: swap;
   font-family: "Karla";
@@ -187,7 +194,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   bottom: 335px;
-  left: -46px;
+  left: -251px;
 }
 
 .line_about {
